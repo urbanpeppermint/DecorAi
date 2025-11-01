@@ -1,1 +1,1 @@
-# Enhanced AI Decor Assistant for Spectacles 2024
+# Enhanced AI Decor Assistant for Spectacles Built with Lens Studio v.5.12.x
