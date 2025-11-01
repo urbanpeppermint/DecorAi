@@ -1,0 +1,41 @@
+- !<AssetImportMetadata/2fc40ada-af2c-7f4d-e4e9-5f00c89b5ca9>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3e5a926a-593f-4458-b809-99454cf766bf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3e5a926a-593f-4458-b809-99454cf766bf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8b89bb2e-5235-4413-8ede-a4a5d8b12234
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8b89bb2e-5235-4413-8ede-a4a5d8b12234>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a70f77bc-9730-4cf4-997a-cd884e224577
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    logLevelFilter: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - logLevelFilter: 8
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input int logLevelFilter = 8 {\"hint\":\"Controls the verbosity of logs. Higher values show more detailed logs, while lower values only show critical information.\\n   - Error (3): Errors that may affect functionality.\\n   - Warning (4): Potential issues that don't affect normal operation.\\n   - Info (6): General information about application state.\\n   - Debug (7): Detailed information useful for debugging.\\n   - Verbose (8): Maximum detail including fine-grained operational data.\", \"widget\":\"combobox\", \"values\":[{\"label\":\"Error\", \"value\":3}, {\"label\":\"Warning\", \"value\":4}, {\"label\":\"Info\", \"value\":6}, {\"label\":\"Debug\", \"value\":7}, {\"label\":\"Verbose\", \"value\":8}]}"

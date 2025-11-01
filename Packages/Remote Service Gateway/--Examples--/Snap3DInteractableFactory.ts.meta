@@ -1,0 +1,110 @@
+- !<AssetImportMetadata/70398c41-993a-4a8e-b17b-593e0a05e711>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1f9f6217-bd69-4697-9ad4-670903b7c3a9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1f9f6217-bd69-4697-9ad4-670903b7c3a9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a53727db-036e-4b11-916b-de0aef4b6154
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a53727db-036e-4b11-916b-de0aef4b6154>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 80b84d91-4b92-439c-986f-7a1f29d4ed81
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    aiAssistantScript: false
+    colorIntensity: false
+    contextualizedPrompt: false
+    designSuggestions: false
+    detectedColors: false
+    detectedStyle: false
+    enableColorMatching: false
+    enableSpeechControl: false
+    enableStyleMatching: false
+    enhancedPrompt: false
+    lastSpeechCommand: false
+    prompt: false
+    refineMesh: false
+    roomAnalysis: false
+    roomLayout: false
+    runOnTap: false
+    snap3DInteractablePrefab: false
+    suggestedColors: false
+    useVertexColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - roomAnalysis: ""
+      designSuggestions: ""
+      roomLayout: ""
+      detectedStyle: ""
+      detectedColors: ""
+      suggestedColors: ""
+      aiAssistantScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      prompt: A cute dog wearing a hat
+      enhancedPrompt: ""
+      refineMesh: true
+      useVertexColor: false
+      runOnTap: false
+      enableStyleMatching: true
+      enableColorMatching: true
+      colorIntensity: 0.700000
+      enableSpeechControl: true
+      lastSpeechCommand: ""
+      contextualizedPrompt: ""
+      snap3DInteractablePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"AI Room Analysis Integration"}'
+    - '// @input string roomAnalysis {"widget":"text_area"}'
+    - '// @input string designSuggestions {"widget":"text_area"}'
+    - '// @input string roomLayout {"widget":"text_area"}'
+    - '// @input string detectedStyle {"widget":"text_area"}'
+    - '// @input string detectedColors {"widget":"text_area"}'
+    - '// @input string suggestedColors {"widget":"text_area"}'
+    - // @input Component.ScriptComponent aiAssistantScript
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Speech Command & Manual Generation"}'
+    - '// @input string prompt = "A beautifiul outdoor fountain" {"widget":"text_area"}'
+    - '// @input string enhancedPrompt {"widget":"text_area"}'
+    - // @input bool refineMesh = true
+    - // @input bool useVertexColor
+    - // @input bool runOnTap
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Style & Color Enhancement Settings"}'
+    - // @input bool enableStyleMatching = true
+    - // @input bool enableColorMatching = true
+    - // @input float colorIntensity = 0.7
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"ASR Integration"}'
+    - // @input bool enableSpeechControl = true
+    - '// @input string lastSpeechCommand {"widget":"text_area"}'
+    - '// @input string contextualizedPrompt {"widget":"text_area"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Prefab Settings"}'
+    - // @input Asset.ObjectPrefab snap3DInteractablePrefab
+    - '// @ui {"widget":"group_end"}'

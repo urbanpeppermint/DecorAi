@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/a320e52f-8b07-e085-e5c3-05ee34e08fd0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 76b4e424-6a99-434f-82c3-2958fd557505
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 76b4e424-6a99-434f-82c3-2958fd557505
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f8c7eacf-8d56-4960-80d3-b91ed0950a35
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f8c7eacf-8d56-4960-80d3-b91ed0950a35>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d728e197-df30-40fd-9914-2eec16ff838d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    aiAssistantScript: false
+    designSuggestions: false
+    enhancePrompts: false
+    generatedItemsHistory: false
+    hintText: false
+    imageRoot: false
+    interactableObject: false
+    itemPriority: false
+    modelMat: false
+    refineMesh: false
+    roomAnalysis: false
+    roomColors: false
+    roomEnvironment: false
+    roomLayout: false
+    roomStyle: false
+    roomType: false
+    singleItemRoot: false
+    snap3DFactory: false
+    targetItemDescription: false
+    useVertexColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - roomAnalysis: ""
+      designSuggestions: ""
+      roomLayout: ""
+      roomType: ""
+      roomStyle: ""
+      roomColors: ""
+      roomEnvironment: ""
+      refineMesh: true
+      useVertexColor: false
+      enhancePrompts: true
+      targetItemDescription: ""
+      itemPriority: ""
+      generatedItemsHistory: ""
+      imageRoot: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      singleItemRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      modelMat: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      aiAssistantScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      snap3DFactory: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"AI Analysis Data - Auto Received"}'
+    - '// @input string roomAnalysis {"widget":"text_area"}'
+    - '// @input string designSuggestions {"widget":"text_area"}'
+    - '// @input string roomLayout {"widget":"text_area"}'
+    - '// @input string roomType {"widget":"text_area"}'
+    - '// @input string roomStyle {"widget":"text_area"}'
+    - '// @input string roomColors {"widget":"text_area"}'
+    - '// @input string roomEnvironment {"widget":"text_area"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"3D Generation Settings"}'
+    - // @input bool refineMesh = true
+    - // @input bool useVertexColor
+    - '// @input bool enhancePrompts = true {"label":"Auto-enhance prompts with AI data"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Single Target Item - AI Generated"}'
+    - '// @input string targetItemDescription {"widget":"text_area"}'
+    - '// @input string itemPriority {"widget":"text_area"}'
+    - '// @input string generatedItemsHistory {"widget":"text_area"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"3D Asset Display"}'
+    - // @input Component.Image imageRoot
+    - // @input SceneObject singleItemRoot
+    - // @input Asset.Material modelMat
+    - // @input Component.Text hintText
+    - // @input SceneObject interactableObject
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"AI Integration"}'
+    - // @input Component.ScriptComponent aiAssistantScript
+    - // @input Component.ScriptComponent snap3DFactory
+    - '// @ui {"widget":"group_end"}'

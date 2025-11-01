@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/86651eef-28be-e4a2-46f2-fbd5dd861db4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2f5377a1-ce12-43b0-94b5-bb534d951cc5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2f5377a1-ce12-43b0-94b5-bb534d951cc5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1680d65a-3b7b-487b-b350-f646ca09ca48
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1680d65a-3b7b-487b-b350-f646ca09ca48>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 31429ee1-1e5a-4fc4-aae8-eeff8c729553
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    debugText: false
+    item1Button: false
+    item1Object: false
+    item2Button: false
+    item2Object: false
+    item3Button: false
+    item3Object: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - item1Button: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      item2Button: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      item3Button: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      item1Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      item2Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      item3Object: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject item1Button
+    - // @input SceneObject item2Button
+    - // @input SceneObject item3Button
+    - // @input SceneObject item1Object
+    - // @input SceneObject item2Object
+    - // @input SceneObject item3Object
+    - // @input Component.Text debugText

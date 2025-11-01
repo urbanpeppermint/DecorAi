@@ -1,0 +1,146 @@
+- !<AssetImportMetadata/e1814312-1cba-2310-8256-143634a6b769>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e148762d-e36a-44fc-b851-47658c6e3a80
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e148762d-e36a-44fc-b851-47658c6e3a80
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 153e3ac9-1f35-4028-9940-924466b4c92c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/153e3ac9-1f35-4028-9940-924466b4c92c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3f4190e1-5ec6-40d4-9ef0-37a1de5f337e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    autoGenerateVoice: false
+    autoSearchShopping: false
+    autoTrigger3D: false
+    capturedImage: false
+    doChatCompletionsOnTap: false
+    doFunctionCallingOnTap: false
+    doInteriorDesignOnTap: false
+    functionCallingPrompt: false
+    generateImageOnTap: false
+    generateVoiceOnTap: false
+    generatedDecorImage: false
+    imageGenerationPrompt: false
+    imgObject: false
+    interactableObject: false
+    interiorDesignPrompt: false
+    locationText: false
+    priceText: false
+    shoppingInfoText: false
+    shoppingResultImage: false
+    snap3DFactory: false
+    snap3DGenerator: false
+    spatialGallery: false
+    storeText: false
+    systemPrompt: false
+    textDisplay: false
+    textInput: false
+    textOutput: false
+    useLocationSearch: false
+    userPrompt: false
+    voiceGenerationInstructions: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - textDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      systemPrompt: You are a helpful assistant that knows everything about Lens Studio.
+      userPrompt: "Bestie what is Lens Studio?"
+      doChatCompletionsOnTap: false
+      spatialGallery: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      imgObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      imageGenerationPrompt: A cat jumping a shark on jet skis. Realistic style.
+      generateImageOnTap: false
+      voiceGenerationInstructions: "Serious, movie trailer voice"
+      generateVoiceOnTap: false
+      functionCallingPrompt: "What's the weather like in Miami?"
+      doFunctionCallingOnTap: false
+      capturedImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      generatedDecorImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      textInput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      textOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      interactableObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      snap3DGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      snap3DFactory: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      interiorDesignPrompt: Analyze this room and suggest three short and smart improvements
+      doInteriorDesignOnTap: false
+      autoTrigger3D: true
+      autoGenerateVoice: true
+      autoSearchShopping: true
+      shoppingResultImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      shoppingInfoText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      priceText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      storeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      locationText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      useLocationSearch: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Chat Completions Example"}'
+    - // @input Component.Text textDisplay
+    - '// @input string systemPrompt = "You are an expert interior designer. Generate a DALL·E prompt to redesign this exact room. Keep the same layout, furniture placement, and wall structure. Focus improvements on decor, lighting, colors, materials, and art. Avoid changing camera angle or architecture" {"widget":"text_area"}'
+    - '// @input string userPrompt = "how to redecorate this area" {"widget":"text_area"}'
+    - '// @input bool doChatCompletionsOnTap {"label":"Run On Tap"}'
+    - // @input Component.ScriptComponent spatialGallery
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Image Generation Example"}'
+    - // @input SceneObject imgObject
+    - '// @input string imageGenerationPrompt = "Image of captured area with Interior design or Outdoor improvement suggestions" {"widget":"text_area"}'
+    - '// @input bool generateImageOnTap {"label":"Run On Tap"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Voice Generation Example"}'
+    - '// @input string voiceGenerationInstructions = "Neutral, very calm voice, talking like a therapist" {"widget":"text_area"}'
+    - '// @input bool generateVoiceOnTap {"label":"Run On Tap"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Function Calling Example"}'
+    - '// @input string functionCallingPrompt = "Make the text display yellow" {"widget":"text_area"}'
+    - '// @input bool doFunctionCallingOnTap {"label":"Run On Tap"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Interior Design Analysis"}'
+    - // @input Component.Image capturedImage
+    - // @input Component.Image generatedDecorImage
+    - // @input Component.Text textInput
+    - // @input Component.Text textOutput
+    - // @input SceneObject interactableObject
+    - // @input Component.ScriptComponent snap3DGenerator
+    - // @input Component.ScriptComponent snap3DFactory
+    - '// @input string interiorDesignPrompt = "Analyze this room and suggest three short and smart improvements" {"widget":"text_area"}'
+    - '// @input bool doInteriorDesignOnTap {"label":"Run Interior Design On Tap"}'
+    - '// @input bool autoTrigger3D = true {"label":"Auto-trigger 3D Generation"}'
+    - '// @input bool autoGenerateVoice = true {"label":"Auto-generate Voice from Analysis"}'
+    - '// @input bool autoSearchShopping = true {"label":"Auto-search Shopping Items"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Shopping Search Results"}'
+    - // @input Component.Image shoppingResultImage
+    - // @input Component.Text shoppingInfoText
+    - // @input Component.Text priceText
+    - // @input Component.Text storeText
+    - // @input Component.Text locationText
+    - '// @input bool useLocationSearch = true {"label":"Enable Location-based Search"}'
+    - '// @ui {"widget":"group_end"}'
